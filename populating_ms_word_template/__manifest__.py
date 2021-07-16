@@ -11,6 +11,11 @@
     'author': "Dev Happy",
     'version': '14.0.3',
     'depends': ['base'],
+    'external_dependencies': {
+        'python': [
+            'docx-mailmerge',
+        ],
+    },
     'live_test_url':'https://youtu.be/9rh7BHen0DM',
     'images':['static/description/word-python-template.png'],
     # always loaded
