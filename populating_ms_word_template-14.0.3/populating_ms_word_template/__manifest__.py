@@ -9,7 +9,7 @@
     """,
     'category': 'Tools',
     'author': "Dev Happy",
-    'version': '14.0.3',
+    'version': '14.0.4',
     'depends': ['base'],
     'live_test_url':'https://youtu.be/9rh7BHen0DM',
     'images':['static/description/word-python-template.png'],
