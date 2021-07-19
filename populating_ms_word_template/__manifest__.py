@@ -9,7 +9,7 @@
     """,
     'category': 'Tools',
     'author': "Dev Happy",
-    'version': '14.0.3',
+    'version': '14.0.4',
     'depends': ['base'],
     'external_dependencies': {
         'python': [
