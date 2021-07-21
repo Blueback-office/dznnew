@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <record id="act_report_xml_view_inherit" model="ir.ui.view">
+            <field name="name">ir.actions.report.inherit</field>
+            <field name="model">ir.actions.report</field>
+            <field name="inherit_id" ref="base.act_report_xml_view"/>
+            <field name="arch" type="xml">
+                <field name="report_type" position="after">
+                    <field name="populating_ms_word_template"/>
+                    <field name="file_template_data" widget="binary" filename="file_template_name" attrs="{'invisible':[('populating_ms_word_template','!=', True)]}"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>

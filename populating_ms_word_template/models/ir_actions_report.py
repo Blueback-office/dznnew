@@ -22,8 +22,8 @@ except ImportError:
 class IrActionsReport(models.Model):
     _inherit = 'ir.actions.report'
 
-    file_template_data = fields.Binary('File Template Data', attachment=True)
-    file_template_name = fields.Char('File Template Name')
+    file_template_data = fields.Binary('File template', attachment=True)
+    file_template_name = fields.Char('File template')
     populating_ms_word_template = fields.Boolean('Populating MSWord Template', default=False)
 
     def _convert_binary_to_doc(self, file_template_data=None, suffix='.docx'):
