@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api, tools
-from mailmerge import MailMerge
+from . import mailmerge
 from lxml import etree
 import binascii
 import tempfile
