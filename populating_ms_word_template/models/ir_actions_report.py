@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from odoo import models, fields, api, tools
-from . import mailmerge.MailMerge as MailMerge
+from odoo.populating_ms_word_template.mailmerge import MailMerge
 from lxml import etree
 import binascii
 import tempfile
